@@ -42,6 +42,6 @@ $db->addServer(array (
   'charset' => 'utf8mb4',
   'port' => '3306',
   'database' => 'typecho',
-  'engine' => 'MyISAM',
+  'engine' => 'MySQL',
 ), Typecho_Db::READ | Typecho_Db::WRITE);
 Typecho_Db::set($db);
